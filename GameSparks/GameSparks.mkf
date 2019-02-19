@@ -1,0 +1,43 @@
+# option lib
+
+subprojects
+{
+	iwutil
+	iwssl
+}
+
+includepaths
+{
+	./include
+}
+
+files
+{
+	(./include/GameSparks)
+	[include]
+	"*.h"
+
+	(./include/GameSparks/generated)
+	[include/generated]
+	"*.h"
+
+	(./src/GameSparks)
+	[src/GameSparks]
+	"*.cpp"
+
+	(./src/cjson)
+	[src/cjson]
+	"*.cpp"
+
+	(./src/easywsclient)
+	[src/easywsclient]
+	"*.cpp"
+
+	(./src/google)
+	[src/google]
+	"*.cpp"
+
+	(./src/mbedtls)
+	[src/mbedtls]
+	"*.c"
+}

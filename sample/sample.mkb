@@ -1,0 +1,16 @@
+#!/usr/bin/env mkb
+files
+{
+    sample.cpp
+}
+
+subprojects
+{
+	iwutil
+	iw2d
+	../GameSparks/GameSparks
+}
+
+deployment
+{
+}
